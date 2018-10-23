@@ -1,0 +1,114 @@
+body{
+background-image:url("gunpowder-painting-best-of-background-page-1-of-gunpowder-painting.jpg");
+
+
+
+}
+
+.name,.btn-position{
+position: absolute;
+left:40%;
+top:40%;
+}
+.name,.btn-style{
+width:150px;
+padding:10px;
+font-family:sans-serif;
+font-size:25px;
+text-align:center;
+text-decoration:none;
+background-color:turquoise;
+color:white;
+border-radius:15px;
+}
+
+.name:hover{
+filter: invert(100%);
+transform: rotate(360deg);
+transition: all 1.5s;
+    }
+
+
+
+.code{
+position: absolute;
+left:40%;
+top:10%;
+}
+.code:hover{
+    filter:invert(100%);
+    transform: rotate(360deg);
+    transition:all 1.5s;
+    box-shadow: 10px 10px 5px yellow;
+}
+
+.facebook{
+position: absolute;
+right:30%;
+top:40%;
+}
+.facebook:hover{
+    filter:invert(100%);
+    transform: rotate(360deg);
+    transition:all 1.5s;
+box-shadow: 10px 10px 5px blue;
+}
+
+
+.twitter{
+    position:absolute;
+    left:40%;
+    top:60%;
+    
+
+}
+.twitter:hover{
+    filter:invert(100%);
+    transform: rotate(360deg);
+    transition:all 1.5s;
+    box-shadow: 10px 10px 5px turquoise;
+}
+
+.insta{
+    position: absolute;
+    left:20%;
+    top:40%;
+}
+.insta:hover{
+    filter:invert(100%);
+    transform: rotate(360deg);
+    transition:all 1.5s;
+    box-shadow: 10px 10px 5px turquoise;
+}
+
+.butterfly{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    animation-name: fly;
+    animation-duration: 5s;
+}
+@keyframes fly{
+    from{transform: translateX(50px)}
+    to{transform:translateX(1000px)};
+}
+
+.butterfly1{
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    animation-name: fly1;
+    animation-duration: 5s;
+}
+@keyframes fly1{
+    from{transform: translateX(-50px)}
+    to{transform:translateX(-1000px)};
+}
+
+
+
+
+
+
+
+
